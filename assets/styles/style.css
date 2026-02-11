@@ -86,4 +86,91 @@ img {
 
 .right {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 2.9rem;
+    padding-bottom: 1rem;
+    background-color: #f9fafb;
 }
+
+.right .paragraphs {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 1.5em;
+    width: 60%;
+}
+
+.right .paragraphs p:last-child {
+    margin-top: 0.7rem;
+    margin-bottom: 2.2rem;
+}
+
+
+.right form .container{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.178);
+    padding: 1em 1.5em;
+}
+
+.right form .container h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.right form .container div {
+    display: flex;
+    column-gap: 4rem;
+}
+
+.right form .container div > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.right form .container div label {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+
+.right form .container div input {
+    border: 1px solid #E5E7EB;
+    padding: 0.2rem;
+}
+
+.right form .container div input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+.right form .container div input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.192);
+} 
+
+
+.right form .bottom {
+    padding-left: 1.5em;
+    margin-top: 1.5rem;
+}
+
+.right form .bottom button{
+    background-color: #596D48;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.right form .bottom p a {
+    color: #596D48;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+

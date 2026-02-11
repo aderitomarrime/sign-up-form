@@ -34,44 +34,48 @@
 
             <form action="" method="">
 
-                <h1>Let's do this!</h1>
+                <div class="container">
 
-                <div class="name">
-                    <div class="first-name">
-                        <label for="firstname">First Name</label>
-                        <input type="text" name="firstname" id="firstname">
+                    <h1>Let's do this!</h1>
+                    <div class="name">
+                        <div class="first-name">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class="last-name">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
                     </div>
-                    <div class="last-name">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" name="lastname" id="lastname">
+                    
+                    <div class="contact">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="tel" name="phonenumber" id="phonenumber">
+                        </div>
                     </div>
+
+                    <div class="security">
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" minlength="8" maxlength="30" required>
+                        </div>
+                        <div class="confirm-password">
+                            <label for="confirmpassword">Confirm Password</label>
+                            <input type="password" name="confirmpassword" id="confirmpassword" minlength="8" maxlength="30" required>
+                        </div>
+                    </div>
+
                 </div>
                 
-                <div class="contact">
-                    <div class="email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="phone-number">
-                        <label for="phonenumber">Phone Number</label>
-                        <input type="tel" name="phonenumber" id="phonenumber">
-                    </div>
+                <div class="bottom">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
                 </div>
-
-                <div class="security">
-                    <div class="password">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="confirm-password">
-                        <label for="confirmpassword">Confirm Password</label>
-                        <input type="password" name="confirmpassword" id="confirmpassword">
-                    </div>
-                </div>
-                
-                <button type="submit">Create Account</button>
-
-                <p>Already have an account? <a href="#">login</a></p>
 
             </form>
 
